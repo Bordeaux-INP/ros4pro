@@ -147,6 +147,12 @@ iframe {
   color: #fff;
 }
 
+.txt1-big {
+  font-family: Poppins-Regular;
+  font-size: 25px;
+  color: #fff;
+}
+
 .a-r {
   text-align: right;
   position: relative;
@@ -158,6 +164,7 @@ iframe {
   font-size: 16px;
   line-height: 1.6;
   color: #bbbbbb;
+  padding-bottom: 20px;
 }
 
 .txt2 a {
@@ -172,6 +179,16 @@ iframe {
   list-style-type: decimal;
   list-style-position: inside;
   display: list-item;
+}
+
+.txt2 ul {
+  margin:20px;
+}
+
+.txt2 ul li {
+  list-style-position: inside;
+  display: list-item;
+  list-style-type: circle;
 }
 
 .txt3 {
@@ -258,7 +275,42 @@ iframe {
   background: rgba(0,0,0,0.8);
 }
 
+/*==================================================================
+[ Registration ]*/
 
+/* Style the list */
+.price {
+  width: 100%;
+  margin-top: 15px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: #333333;
+  margin-bottom: 25px;
+}
+
+.price-2 {
+  background-color: #555555;
+}
+
+.price tr td {
+  padding:10px;
+  text-align: right;
+}
+
+.price tr th {
+  padding:10px;
+  text-align: left;
+  text-decoration: none;;
+}
+
+.partner {
+  color: #4CAF50;
+}
+
+.partner td {
+  margin: 0;
+  font-size: 1.2em;
+}
 
 /*==================================================================
 [ Form ]*/
@@ -411,6 +463,7 @@ textarea.input100 {
   display: -ms-flexbox;
   display: flex;
   justify-content: center;
+  text-align: center;
   align-items: center;
   padding: 0 20px;
   min-width: 200px;
