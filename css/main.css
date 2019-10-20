@@ -315,7 +315,7 @@ iframe {
 /*==================================================================
 [ Form ]*/
 
-.contact100-right {
+.contact100-form {
   width: 50%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -324,16 +324,6 @@ iframe {
   display: flex;
   flex-wrap: wrap;
   padding: 56px 55px 63px 55px;
-}
-
-.contact100-form {
-  width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .contact100-form-header {
